@@ -29,7 +29,7 @@ $MySettings = array(
 
 	// app_root_url: Root URL used for navigating within the application, or from an email to the application (you can put $SERVER_NAME$ as a placeholder for the server's name)
 	//	default: ''
-	'app_root_url' => 'https://alltic.co/itsm/',
+	'app_root_url' => 'http://localhost/itsm/',
 
 	// buttons_position: Position of the forms buttons: bottom | top | both
 	//	default: 'both'
@@ -72,19 +72,23 @@ $MySettings = array(
 	  ),
 	),
 
+	// db_character_set: Deprecated since iTop 2.5 : now using utf8mb4
+	//	default: 'DEPRECATED_2.5'
 	'db_character_set' => 'utf8',
 
+	// db_collation: Deprecated since iTop 2.5 : now using utf8mb4_unicode_ci
+	//	default: 'DEPRECATED_2.5'
 	'db_collation' => 'utf8_unicode_ci',
 
 	'db_host' => 'localhost',
 
 	'db_name' => 'alltic_itsm',
 
-	'db_pwd' => 'Alltic2017',
+	'db_pwd' => '',
 
 	'db_subname' => '',
 
-	'db_user' => 'aws_1',
+	'db_user' => 'root',
 
 	// deadline_format: The format used for displaying "deadline" attributes: any string with the following placeholders: $date$, $difference$
 	//	default: '$difference$'
@@ -92,11 +96,23 @@ $MySettings = array(
 
 	'default_language' => 'ES CR',
 
+	// disable_attachments_download_legacy_portal: Disable attachments download from legacy portal
+	//	default: true
+	'disable_attachments_download_legacy_portal' => true,
+
 	// email_asynchronous: If set, the emails are sent off line, which requires cron.php to be activated. Exception: some features like the email test utility will force the serialized mode
 	//	default: false
 	'email_asynchronous' => false,
 
-	// email_transport: Mean to send emails: PHPMail (uses the function mail()) or SMTP (implements the client protocole)
+	// email_default_sender_address: Default address provided in the email from header field.
+	//	default: ''
+	'email_default_sender_address' => '',
+
+	// email_default_sender_label: Default label provided in the email from header field.
+	//	default: ''
+	'email_default_sender_label' => '',
+
+	// email_transport: Mean to send emails: PHPMail (uses the function mail()) or SMTP (implements the client protocol)
 	//	default: 'PHPMail'
 	'email_transport' => 'PHPMail',
 
@@ -104,7 +120,9 @@ $MySettings = array(
 	//	default: '[a-zA-Z0-9._&\'-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z0-9-]{2,}'
 	'email_validation_pattern' => '[a-zA-Z0-9._&\'-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z0-9-]{2,}',
 
-	'encryption_key' => '@iT0pEncr1pti0n!',
+	'encryption_key' => 'b494146ab408bddf060dbb7fe12abe080be3a86edb2c1f24f803be5e46fa5e3a',
+
+	'encryption_library' => 'OpenSSL',
 
 	'ext_auth_variable' => '$_SERVER[\'REMOTE_USER\']',
 
@@ -112,7 +130,13 @@ $MySettings = array(
 
 	// graphviz_path: Path to the Graphviz "dot" executable for graphing objects lifecycle
 	//	default: '/usr/bin/dot'
-	'graphviz_path' => 'C:\\Program Files (x86)\\Graphviz2.38\\bin\\dot.exe',
+	'graphviz_path' => './usr/bin/dot',
+
+	// high_cardinality_classes: List of classes with high cardinality (Force manual submit of search)
+	//	default: array (
+	//		)
+	'high_cardinality_classes' => array (
+	),
 
 	// inline_image_max_display_width: The maximum width (in pixels) when displaying images inside an HTML formatted attribute. Images will be displayed using this this maximum width.
 	//	default: '250'
@@ -156,7 +180,11 @@ $MySettings = array(
 
 	// online_help: Hyperlink to the online-help web page
 	//	default: 'http://www.combodo.com/itop-help'
-	'online_help' => 'http://www.combodo.com/itop-help',
+	'online_help' => 'http://alltic.co/',
+
+	// optimize_requests_for_join_count: Optimize request joins to minimize the count (default is true, try to set it to false in case of performance issues)
+	//	default: true
+	'optimize_requests_for_join_count' => true,
 
 	// php_path: Path to the php executable in CLI mode
 	//	default: 'php'
@@ -167,6 +195,10 @@ $MySettings = array(
 	'portal_tickets' => 'UserRequest',
 
 	'query_cache_enabled' => true,
+
+	// search_manual_submit: Force manual submit of search all requests
+	//	default: false
+	'search_manual_submit' => false,
 
 	'secure_connection_required' => false,
 
@@ -188,13 +220,13 @@ $MySettings = array(
 	//	default: 'none'
 	'synchro_trace' => 'none',
 
-	// timezone: Timezone (reference: http://php.net/manual/en/timezones.php). If empty, it will be left unchanged and MUST be explicitely configured in PHP
-	//	default: 'Europe/Paris'
-	'timezone' => 'Europe/Paris',
+	// tag_set_item_separator: Tag set from string: tag label separator
+	//	default: '|'
+	'tag_set_item_separator' => '|',
 
-	// tracking_level_linked_set_default: Default tracking level if not explicitely set at the attribute level, for AttributeLinkedSet (defaults to NONE in case of a fresh install, LIST otherwise - this to preserve backward compatibility while upgrading from a version older than 2.0.3 - see TRAC #936)
-	//	default: 1
-	'tracking_level_linked_set_default' => 0,
+	// timezone: Timezone (reference: http://php.net/manual/en/timezones.php). If empty, it will be left unchanged and MUST be explicitly configured in PHP
+	//	default: 'Europe/Paris'
+	'timezone' => 'America/Bogota',
 
 	// url_validation_pattern: Regular expression to validate/detect the format of an URL (URL attributes and Wiki formatting for Text attributes)
 	//	default: '(https?|ftp)\\://([a-zA-Z0-9+!*(),;?&=\\$_.-]+(\\:[a-zA-Z0-9+!*(),;?&=\\$_.-]+)?@)?([a-zA-Z0-9-.]{3,})(\\:[0-9]{2,5})?(/([a-zA-Z0-9%+\\$_-]\\.?)+)*/?(\\?[a-zA-Z+&\\$_.-][a-zA-Z0-9;:[\\]@&%=+/\\$_.-]*)?(#[a-zA-Z_.-][a-zA-Z0-9+\\$_.-]*)?'
@@ -207,6 +239,20 @@ $MySettings = array(
  *
  */
 $MyModuleSettings = array(
+	'authent-ldap' => array (
+		'host' => 'ldap://190.145.215.202 ldap://3.16.200.46',
+		'port' => 389,
+		'default_user' => 'CN=Conexion Aplicaciones,CN=Users,DC=alltic,DC=local',
+		'default_pwd' => '@lltic2019',
+		'base_dn' => 'DC=alltic,DC=local',
+		'user_query' => '(sAMAccountName=%s)',
+		'options' => array (
+		  17 => 3,
+		  8 => 0,
+		),
+		'start_tls' => false,
+		'debug' => true,
+	),
 	'itop-attachments' => array (
 		'allowed_classes' => array (
 		  0 => 'Ticket',
@@ -220,11 +266,8 @@ $MyModuleSettings = array(
 		'time' => '23:30',
 		'retention_count' => 5,
 		'enabled' => true,
-		'debug' => false,
-	),
-	'combodo-sla-computation' => array (
-		'coverage_oql' => 'SELECT CoverageWindow',
-		'holidays_oql' => 'SELECT Holiday',
+		'itop_root' => '',
+		'itop_backup_incident' => '',
 	),
 );
 

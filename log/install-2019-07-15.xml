@@ -20,7 +20,7 @@
     <prefix></prefix>
   </database>
   <url>http://localhost/itsm/</url>
-  <graphviz_path>C:\Program Files\Graphviz\bin\dot.exe</graphviz_path>
+  <graphviz_path>./usr/bin/dot</graphviz_path>
   <admin_account>
     <user></user>
     <pwd>**removed**</pwd>

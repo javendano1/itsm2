@@ -72,6 +72,14 @@ $MySettings = array(
 	  ),
 	),
 
+	// db_character_set: Deprecated since iTop 2.5 : now using utf8mb4
+	//	default: 'DEPRECATED_2.5'
+	'db_character_set' => 'utf8',
+
+	// db_collation: Deprecated since iTop 2.5 : now using utf8mb4_unicode_ci
+	//	default: 'DEPRECATED_2.5'
+	'db_collation' => 'utf8_unicode_ci',
+
 	'db_host' => 'localhost',
 
 	'db_name' => 'alltic_itsm',
@@ -86,7 +94,7 @@ $MySettings = array(
 	//	default: '$difference$'
 	'deadline_format' => '$difference$',
 
-	'default_language' => 'EN US',
+	'default_language' => 'ES CR',
 
 	// disable_attachments_download_legacy_portal: Disable attachments download from legacy portal
 	//	default: true
@@ -122,7 +130,7 @@ $MySettings = array(
 
 	// graphviz_path: Path to the Graphviz "dot" executable for graphing objects lifecycle
 	//	default: '/usr/bin/dot'
-	'graphviz_path' => 'C:\\Program Files\\Graphviz\\bin\\dot.exe',
+	'graphviz_path' => './usr/bin/dot',
 
 	// high_cardinality_classes: List of classes with high cardinality (Force manual submit of search)
 	//	default: array (
@@ -172,7 +180,7 @@ $MySettings = array(
 
 	// online_help: Hyperlink to the online-help web page
 	//	default: 'http://www.combodo.com/itop-help'
-	'online_help' => 'http://www.combodo.com/itop-help',
+	'online_help' => 'http://alltic.co/',
 
 	// optimize_requests_for_join_count: Optimize request joins to minimize the count (default is true, try to set it to false in case of performance issues)
 	//	default: true
@@ -218,7 +226,7 @@ $MySettings = array(
 
 	// timezone: Timezone (reference: http://php.net/manual/en/timezones.php). If empty, it will be left unchanged and MUST be explicitly configured in PHP
 	//	default: 'Europe/Paris'
-	'timezone' => 'Europe/Paris',
+	'timezone' => 'America/Bogota',
 
 	// url_validation_pattern: Regular expression to validate/detect the format of an URL (URL attributes and Wiki formatting for Text attributes)
 	//	default: '(https?|ftp)\\://([a-zA-Z0-9+!*(),;?&=\\$_.-]+(\\:[a-zA-Z0-9+!*(),;?&=\\$_.-]+)?@)?([a-zA-Z0-9-.]{3,})(\\:[0-9]{2,5})?(/([a-zA-Z0-9%+\\$_-]\\.?)+)*/?(\\?[a-zA-Z+&\\$_.-][a-zA-Z0-9;:[\\]@&%=+/\\$_.-]*)?(#[a-zA-Z_.-][a-zA-Z0-9+\\$_.-]*)?'
@@ -236,14 +244,14 @@ $MyModuleSettings = array(
 		'port' => 389,
 		'default_user' => 'CN=Conexion Aplicaciones,CN=Users,DC=alltic,DC=local',
 		'default_pwd' => '@lltic2019',
-		'base_dn' => 'CN=Users,DC=alltic,DC=local',
+		'base_dn' => 'DC=alltic,DC=local',
 		'user_query' => '(sAMAccountName=%s)',
 		'options' => array (
 		  17 => 3,
 		  8 => 0,
 		),
 		'start_tls' => false,
-		'debug' => false,
+		'debug' => true,
 	),
 	'itop-attachments' => array (
 		'allowed_classes' => array (
