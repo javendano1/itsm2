@@ -38,3 +38,14 @@
 2019-07-15 12:08:17 | Error | ldap_set_option('8', '0') returned true
 2019-07-15 12:20:01 | Error | ldap_set_option('17', '3') returned true
 2019-07-15 12:20:01 | Error | ldap_set_option('8', '0') returned true
+2019-07-15 14:32:00 | Error | ldap_set_option('17', '3') returned true
+2019-07-15 14:32:00 | Error | ldap_set_option('8', '0') returned true
+2019-07-15 14:43:56 | Error | ldap_set_option('17', '3') returned true
+2019-07-15 14:43:56 | Error | ldap_set_option('8', '0') returned true
+2019-07-15 14:45:19 | Error | ldap_set_option('17', '3') returned true
+2019-07-15 14:45:19 | Error | ldap_set_option('8', '0') returned true
+2019-07-15 14:47:03 | Error | User not allowed to view this object: class = UserLDAP, id = 18
+2019-07-15 14:47:03 | Error | UI.php 'apply_modify' : invalid transaction_id ! data: user='javendano', class='UserLDAP'
+2019-07-15 14:47:04 | Error | User not allowed to view this object: class = UserLDAP, id = 18
+2019-07-15 14:47:16 | Error | ldap_set_option('17', '3') returned true
+2019-07-15 14:47:16 | Error | ldap_set_option('8', '0') returned true

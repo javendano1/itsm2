@@ -251,7 +251,7 @@ $MyModuleSettings = array(
 		  8 => 0,
 		),
 		'start_tls' => false,
-		'debug' => true,
+		'debug' => false,
 	),
 	'itop-attachments' => array (
 		'allowed_classes' => array (
