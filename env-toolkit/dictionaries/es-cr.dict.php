@@ -926,7 +926,7 @@ Operadores:<br/>
 	'Menu:WelcomeMenu+' => 'Bienvenido a iTop',
 	'Menu:WelcomeMenuPage' => 'Bienvenido',
 	'Menu:WelcomeMenuPage+' => 'Bienvenido a iTop',
-	'UI:WelcomeMenu:Title' => 'Bienvenido a iTop',
+	'UI:WelcomeMenu:Title' => 'Bienvenido a ITSM',
 	'UI:WelcomeMenu:LeftBlock' => '<p>iTop es un completo portal de administración de servicios de TI basado en código abierto.</p>
 <p>Incluye:</p>
 <ul><li>Una CMDB completa (Base de datos de Configuraciones) para documentar y manejar el inventario de TI.</li>
@@ -1085,7 +1085,7 @@ Operadores:<br/>
 	'UI:SearchValue:CheckAll' => 'Seleccionar Todo',
 	'UI:SearchValue:UncheckAll' => 'Deseleccionar Todo',
 	'UI:SelectOne' => '-- Seleccione uno --',
-	'UI:Login:Welcome' => 'Bienvenido a iTop',
+	'UI:Login:Welcome' => 'Bienvenido a ITSM',
 	'UI:Login:IncorrectLoginPassword' => 'Usuario/Contraseña incorrecto, por favor intente otra vez.',
 	'UI:Login:IdentifyYourself' => 'Identifiquese antes de continuar',
 	'UI:Login:UserNamePrompt' => 'Usuario   ',
@@ -1117,7 +1117,7 @@ Operadores:<br/>
 	'UI:Login:RetypeNewPasswordPrompt' => 'Confirme Contraseña Nueva',
 	'UI:Login:IncorrectOldPassword' => 'Error: la Contraseña Anterior es Incorrecta',
 	'UI:LogOffMenu' => 'Cerrar Sesión',
-	'UI:LogOff:ThankYou' => 'Gracias por usar iTop',
+	'UI:LogOff:ThankYou' => 'Gracias por usar ITSM',
 	'UI:LogOff:ClickHereToLoginAgain' => 'Click aquí para conectarse nuevamente',
 	'UI:ChangePwdMenu' => 'Cambiar Contraseña',
 	'UI:Login:PasswordChanged' => '¡Contraseña Exitosamente Cambiada!',
@@ -1367,7 +1367,7 @@ Operadores:<br/>
 	'UI:Delete:PleaseDoTheManualOperations' => 'Por favor ejecute las operaciones manuales antes de eliminar este objeto',
 	'UI:Delect:Confirm_Object' => 'Por favor confirme que quiere borrar %1$s.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => 'Por favor confirme que quiere eliminar los siguientes %1$d objeto de la clase %2$s.',
-	'UI:WelcomeToITop' => 'Bienvenido a iTop',
+	'UI:WelcomeToITop' => 'Bienvenido a ITSM',
 	'UI:DetailsPageTitle' => 'iTop - %1$s - Detalles %2$s',
 	'UI:ErrorPageTitle' => 'iTop - Error',
 	'UI:ObjectDoesNotExist' => 'Disculpe, este objeto no existe (o no está autorizado para verlo).',

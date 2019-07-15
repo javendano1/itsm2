@@ -343,10 +343,10 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellaño', array(
 	'BooleanLabel:no' => 'No',
     'UI:Login:Title' => 'Inicio de Sesión',
 	'Menu:WelcomeMenu' => 'Bienvenido', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenu+' => 'Bienvenido a iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:WelcomeMenu+' => 'Bienvenido a ITSM', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage' => 'Bienvenido', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenuPage+' => 'Bienvenido a iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'UI:WelcomeMenu:Title' => 'Bienvenido a iTop',
+	'Menu:WelcomeMenuPage+' => 'Bienvenido a ITSM', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'UI:WelcomeMenu:Title' => 'Bienvenido a ITSM',
 
 	'UI:WelcomeMenu:LeftBlock' => '<p>iTop es un completo portal de administración de servicios de TI basado en código abierto.</p>
 <p>Incluye:</p>
@@ -510,7 +510,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellaño', array(
 	'UI:SearchValue:CheckAll' => 'Seleccionar Todo',
 	'UI:SearchValue:UncheckAll' => 'Deseleccionar Todo',
 	'UI:SelectOne' => '-- Seleccione uno --',
-	'UI:Login:Welcome' => 'Bienvenido a iTop',
+	'UI:Login:Welcome' => 'Bienvenido a ITSM',
 	'UI:Login:IncorrectLoginPassword' => 'Usuario/Contraseña incorrecto, por favor intente otra vez.',
 	'UI:Login:IdentifyYourself' => 'Identifiquese antes de continuar',
 	'UI:Login:UserNamePrompt' => 'Usuario   ',
@@ -545,7 +545,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellaño', array(
 	'UI:Login:RetypeNewPasswordPrompt' => 'Confirme Contraseña Nueva',
 	'UI:Login:IncorrectOldPassword' => 'Error: la Contraseña Anterior es Incorrecta',
 	'UI:LogOffMenu' => 'Cerrar Sesión',
-	'UI:LogOff:ThankYou' => 'Gracias por usar iTop',
+	'UI:LogOff:ThankYou' => 'Gracias por usar ITSM',
 	'UI:LogOff:ClickHereToLoginAgain' => 'Click aquí para conectarse nuevamente',
 	'UI:ChangePwdMenu' => 'Cambiar Contraseña',
 	'UI:Login:PasswordChanged' => '¡Contraseña Exitosamente Cambiada!',
@@ -801,7 +801,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellaño', array(
 	'UI:Delete:PleaseDoTheManualOperations' => 'Por favor ejecute las operaciones manuales antes de eliminar este objeto',
 	'UI:Delect:Confirm_Object' => 'Por favor confirme que quiere borrar %1$s.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => 'Por favor confirme que quiere eliminar los siguientes %1$d objeto de la clase %2$s.',
-	'UI:WelcomeToITop' => 'Bienvenido a iTop',
+	'UI:WelcomeToITop' => 'Bienvenido a ITSM',
 	'UI:DetailsPageTitle' => 'iTop - %1$s - Detalles %2$s',
 	'UI:ErrorPageTitle' => 'iTop - Error',
 	'UI:ObjectDoesNotExist' => 'Disculpe, este objeto no existe (o no está autorizado para verlo).',

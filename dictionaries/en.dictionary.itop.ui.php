@@ -349,8 +349,8 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Menu:WelcomeMenu' => 'Welcome', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenu+' => 'Welcome to iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage' => 'Welcome', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenuPage+' => 'Welcome to iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'UI:WelcomeMenu:Title' => 'Welcome to iTop',
+	'Menu:WelcomeMenuPage+' => 'Welcome to ITSM', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'UI:WelcomeMenu:Title' => 'Welcome to ITSM',
 
 	'UI:WelcomeMenu:LeftBlock' => '<p>iTop is a complete, OpenSource, IT Operational Portal.</p>
 <ul>It includes:
@@ -549,7 +549,7 @@ Dict::Add('EN US', 'English', 'English', array(
 	'UI:Login:RetypeNewPasswordPrompt' => 'Retype new password',
 	'UI:Login:IncorrectOldPassword' => 'Error: the old password is incorrect',
 	'UI:LogOffMenu' => 'Log off',
-	'UI:LogOff:ThankYou' => 'Thank you for using iTop',
+	'UI:LogOff:ThankYou' => 'Thank you for using ITSM',
 	'UI:LogOff:ClickHereToLoginAgain' => 'Click here to login again...',
 	'UI:ChangePwdMenu' => 'Change Password...',
 	'UI:Login:PasswordChanged' => 'Password successfully set!',
@@ -806,7 +806,7 @@ Dict::Add('EN US', 'English', 'English', array(
 	'UI:Delete:PleaseDoTheManualOperations' => 'Please perform the manual operations listed above prior to requesting the deletion of this object',
 	'UI:Delect:Confirm_Object' => 'Please confirm that you want to delete %1$s.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => 'Please confirm that you want to delete the following %1$d objects of class %2$s.',
-	'UI:WelcomeToITop' => 'Welcome to iTop',
+	'UI:WelcomeToITop' => 'Welcome to ITSM',
 	'UI:DetailsPageTitle' => 'iTop - %1$s - %2$s details',
 	'UI:ErrorPageTitle' => 'iTop - Error',
 	'UI:ObjectDoesNotExist' => 'Sorry, this object does not exist (or you are not allowed to view it).',
