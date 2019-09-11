@@ -274,6 +274,10 @@ $MyModuleSettings = array(
 		'holidays_oql' => 'SELECT Holiday',
 		'deadline_format' => '$date$ ($difference$)',
 	),
+	'combodo-autoclose-ticket' => array (
+		'incident_autoclose_delay' => '7',
+		'userrequest_autoclose_delay' => '7',
+	),
 );
 
 /**
