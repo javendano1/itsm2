@@ -1,12 +1,13 @@
 <?php
 //
-// File generated on 2019-09-11T11:43:37-0500
+// File generated on 2019-09-11T14:57:31-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
 MetaModel::IncludeModule(MODULESROOT.'/authent-external/model.authent-external.php');
 MetaModel::IncludeModule(MODULESROOT.'/authent-ldap/model.authent-ldap.php');
 MetaModel::IncludeModule(MODULESROOT.'/authent-local/model.authent-local.php');
+MetaModel::IncludeModule(MODULESROOT.'/combodo-autoclose-ticket/main.combodo-autoclose-ticket.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-attachments/model.itop-attachments.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-attachments/main.attachments.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-backup/main.itop-backup.php');
@@ -78,6 +79,11 @@ return array (
   array (
     'root_dir' => $sCurrEnv.'/authent-local',
     'version' => '2.6.1',
+  ),
+  'combodo-autoclose-ticket' => 
+  array (
+    'root_dir' => $sCurrEnv.'/combodo-autoclose-ticket',
+    'version' => '1.0.1',
   ),
   'itop-attachments' => 
   array (
