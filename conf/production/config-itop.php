@@ -269,6 +269,11 @@ $MyModuleSettings = array(
 		'itop_root' => '',
 		'itop_backup_incident' => '',
 	),
+	'combodo-sla-computation' => array (
+		'coverage_oql' => 'SELECT CoverageWindow AS cw JOIN lnkCustomerContractToService AS l1 ON l1.coveragewindow_id = cw.id JOIN CustomerContract AS cc ON l1.customercontract_id = cc.id WHERE cc.org_id= :this->org_id AND l1.service_id = :this->service_id',
+		'holidays_oql' => 'SELECT Holiday',
+		'deadline_format' => '$date$ ($difference$)',
+	),
 );
 
 /**

@@ -49,3 +49,7 @@
 2019-07-15 14:47:04 | Error | User not allowed to view this object: class = UserLDAP, id = 18
 2019-07-15 14:47:16 | Error | ldap_set_option('17', '3') returned true
 2019-07-15 14:47:16 | Error | ldap_set_option('8', '0') returned true
+2019-09-11 11:49:40 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: it@alltic.co
+2019-09-11 11:49:48 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, agomez@alltic.co
+2019-09-11 11:54:08 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: it@alltic.co
+2019-09-11 11:54:18 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, jlozano@alltic.co

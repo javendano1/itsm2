@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2019-07-16T00:46:24+0200
+// File generated on 2019-09-11T18:44:31+0200
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
@@ -43,6 +43,8 @@ MetaModel::IncludeModule(MODULESROOT.'/itop-request-mgmt-itil/main.itop-request-
 MetaModel::IncludeModule(MODULESROOT.'/itop-service-mgmt/model.itop-service-mgmt.php');
 MetaModel::IncludeModule(MODULESROOT.'/service-family-incident/model.service-family-incident.php');
 MetaModel::IncludeModule(MODULESROOT.'/service-family-request/model.service-family-request.php');
+MetaModel::IncludeModule(MODULESROOT.'/combodo-sla-computation/model.combodo-sla-computation.php');
+MetaModel::IncludeModule(MODULESROOT.'/combodo-sla-computation/main.combodo-sla-computation.php');
 function GetModulesInfo()
 {
 $sCurrEnv = 'env-'.utils::GetCurrentEnvironment();
@@ -197,10 +199,20 @@ return array (
     'root_dir' => $sCurrEnv.'/service-family-request',
     'version' => '1.0.0',
   ),
+  'combodo-sla-computation' => 
+  array (
+    'root_dir' => $sCurrEnv.'/combodo-sla-computation',
+    'version' => '2.2.0',
+  ),
   'itop-full-itil' => 
   array (
     'root_dir' => $sCurrEnv.'/itop-full-itil',
     'version' => '2.6.1',
+  ),
+  'combodo-coverage-windows-computation' => 
+  array (
+    'root_dir' => $sCurrEnv.'/combodo-coverage-windows-computation',
+    'version' => '2.0.4',
   ),
 );
 }
