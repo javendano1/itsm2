@@ -3615,6 +3615,8 @@ When associated with a trigger, each action is given an "order" number, specifyi
 	'Class:ResourceAdminMenu+' => '',
 	'Class:ResourceRunQueriesMenu' => 'Resource Run Queries Menu',
 	'Class:ResourceRunQueriesMenu+' => '',
+	'Class:Ticket/Attribute:codigo_externo' => 'External code',
+	'Class:Ticket/Attribute:codigo_externo+' => 'External code',
 	'Menu:ChangeManagement' => 'Change management',
 	'Menu:Change:Overview' => 'Overview',
 	'Menu:Change:Overview+' => '',

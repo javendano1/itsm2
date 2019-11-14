@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2019-09-11T14:57:31-0500
+// File generated on 2019-11-14T13:47:54-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
@@ -34,6 +34,7 @@ MetaModel::IncludeModule(MODULESROOT.'/itop-tickets/model.itop-tickets.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-virtualization-mgmt/model.itop-virtualization-mgmt.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-welcome-itil/main.itop-welcome-itil.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-welcome-itil/model.itop-welcome-itil.php');
+MetaModel::IncludeModule(MODULESROOT.'/codigo_externo/model.codigo_externo.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-bridge-virtualization-storage/model.itop-bridge-virtualization-storage.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-change-mgmt-itil/model.itop-change-mgmt-itil.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-incident-mgmt-itil/model.itop-incident-mgmt-itil.php');
@@ -42,10 +43,12 @@ MetaModel::IncludeModule(MODULESROOT.'/itop-problem-mgmt/model.itop-problem-mgmt
 MetaModel::IncludeModule(MODULESROOT.'/itop-request-mgmt-itil/model.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-request-mgmt-itil/main.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-service-mgmt/model.itop-service-mgmt.php');
+MetaModel::IncludeModule(MODULESROOT.'/requerimientos-modificacion-vista/model.requerimientos-modificacion-vista.php');
 MetaModel::IncludeModule(MODULESROOT.'/service-family-incident/model.service-family-incident.php');
 MetaModel::IncludeModule(MODULESROOT.'/service-family-request/model.service-family-request.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-sla-computation/model.combodo-sla-computation.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-sla-computation/main.combodo-sla-computation.php');
+MetaModel::IncludeModule(MODULESROOT.'/incidentes_modificacion_vista/model.incidentes_modificacion_vista.php');
 function GetModulesInfo()
 {
 $sCurrEnv = 'env-'.utils::GetCurrentEnvironment();
@@ -160,6 +163,11 @@ return array (
     'root_dir' => $sCurrEnv.'/itop-welcome-itil',
     'version' => '2.6.1',
   ),
+  'codigo_externo' => 
+  array (
+    'root_dir' => $sCurrEnv.'/codigo_externo',
+    'version' => '1.0.0',
+  ),
   'itop-bridge-virtualization-storage' => 
   array (
     'root_dir' => $sCurrEnv.'/itop-bridge-virtualization-storage',
@@ -195,6 +203,11 @@ return array (
     'root_dir' => $sCurrEnv.'/itop-service-mgmt',
     'version' => '2.6.1',
   ),
+  'requerimientos-modificacion-vista' => 
+  array (
+    'root_dir' => $sCurrEnv.'/requerimientos-modificacion-vista',
+    'version' => '1.0.0',
+  ),
   'service-family-incident' => 
   array (
     'root_dir' => $sCurrEnv.'/service-family-incident',
@@ -209,6 +222,11 @@ return array (
   array (
     'root_dir' => $sCurrEnv.'/combodo-sla-computation',
     'version' => '2.2.0',
+  ),
+  'incidentes_modificacion_vista' => 
+  array (
+    'root_dir' => $sCurrEnv.'/incidentes_modificacion_vista',
+    'version' => '1.0.0',
   ),
   'itop-full-itil' => 
   array (

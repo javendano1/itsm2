@@ -53,3 +53,6 @@
 2019-09-11 11:49:48 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, agomez@alltic.co
 2019-09-11 11:54:08 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: it@alltic.co
 2019-09-11 11:54:18 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, jlozano@alltic.co
+2019-11-14 13:49:34 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: it@alltic.co
+2019-11-14 13:52:31 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: it@alltic.co
+2019-11-14 13:52:44 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co

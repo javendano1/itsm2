@@ -240,7 +240,7 @@ $MySettings = array(
  */
 $MyModuleSettings = array(
 	'authent-ldap' => array (
-		'host' => 'ldap://190.145.215.202 ldap://3.16.200.46',
+		'host' => 'ldap://190.145.215.202 ldap://181.143.229.210 ldap://3.16.200.46',
 		'port' => 389,
 		'default_user' => 'CN=Conexion Aplicaciones,CN=Users,DC=alltic,DC=local',
 		'default_pwd' => '@lltic2019',

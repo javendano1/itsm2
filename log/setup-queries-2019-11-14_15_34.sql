@@ -1,0 +1,3 @@
+ALTER TABLE `priv_trigger_onobject` CHANGE `target_class` `target_class` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'ApplicationSolution'
+ALTER TABLE `priv_sync_datasource` CHANGE `scope_class` `scope_class` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'lnkTriggerAction'
+ALTER TABLE `ticket` ADD `codigo_externo` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT ''
