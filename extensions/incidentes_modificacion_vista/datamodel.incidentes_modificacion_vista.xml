@@ -52,20 +52,23 @@
 								<item id="fieldset:Ticket:moreinfo">
 									<rank>20</rank>
 									<items>
-										<item id="service_id">
+										<item id="servicefamily_id">
 											<rank>10</rank>
-										</item>
-										<item id="servicesubcategory_id">
+											</item>
+										<item id="service_id">
 											<rank>20</rank>
 										</item>
-										<item id="escalation_flag">
+										<item id="servicesubcategory_id">
 											<rank>30</rank>
 										</item>
-										<item id="escalation_reason">
+										<item id="escalation_flag">
 											<rank>40</rank>
 										</item>
-										<item id="pending_reason">
+										<item id="escalation_reason">
 											<rank>50</rank>
+										</item>
+										<item id="pending_reason">
+											<rank>60</rank>
 										</item>
 									</items>
 								</item>
@@ -232,32 +235,35 @@
 						<item id="priority">
 							<rank>140</rank>
 						</item>
-						<item id="service_id">
+						<item id="servicefamily_id">
 							<rank>150</rank>
 						</item>
-						<item id="servicesubcategory_id">
+						<item id="service_id">
 							<rank>160</rank>
 						</item>
-						<item id="team_id">
+						<item id="servicesubcategory_id">
 							<rank>170</rank>
 						</item>
-						<item id="agent_id">
+						<item id="team_id">
 							<rank>180</rank>
 						</item>
-						<item id="escalation_flag">
+						<item id="agent_id">
 							<rank>190</rank>
 						</item>
-						<item id="resolution_code">
+						<item id="escalation_flag">
 							<rank>200</rank>
 						</item>
-						<item id="user_satisfaction">
+						<item id="resolution_code">
 							<rank>210</rank>
 						</item>
-						<item id="sla_tto_passed">
+						<item id="user_satisfaction">
 							<rank>220</rank>
 						</item>
-						<item id="sla_ttr_passed">
+						<item id="sla_tto_passed">
 							<rank>230</rank>
+						</item>
+						<item id="sla_ttr_passed">
+							<rank>240</rank>
 						</item>
 					</items>
 				</search>
