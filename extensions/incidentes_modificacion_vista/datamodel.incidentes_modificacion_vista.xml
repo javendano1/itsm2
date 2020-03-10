@@ -156,17 +156,23 @@
 										<item id="resolution_code">
 											<rank>10</rank>
 										</item>
-										<item id="solution">
+										<item id="indisponibilidad">
 											<rank>20</rank>
 										</item>
-										<item id="time_spent">
+										<item id="tiempo_indisponibilidad">
+											<rank>25</rank>
+										</item>
+										<item id="solution">
 											<rank>30</rank>
 										</item>
-										<item id="user_satisfaction">
+										<item id="time_spent">
 											<rank>40</rank>
 										</item>
-										<item id="user_comment">
+										<item id="user_satisfaction">
 											<rank>50</rank>
+										</item>
+										<item id="user_comment">
+											<rank>60</rank>
 										</item>
 									</items>
 								</item>

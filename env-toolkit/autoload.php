@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2020-03-10T10:31:33-0500
+// File generated on 2020-03-10T16:10:10-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
@@ -46,9 +46,11 @@ MetaModel::IncludeModule(MODULESROOT.'/itop-service-mgmt/model.itop-service-mgmt
 MetaModel::IncludeModule(MODULESROOT.'/requerimientos-modificacion-vista/model.requerimientos-modificacion-vista.php');
 MetaModel::IncludeModule(MODULESROOT.'/service-family-incident/model.service-family-incident.php');
 MetaModel::IncludeModule(MODULESROOT.'/service-family-request/model.service-family-request.php');
+MetaModel::IncludeModule(MODULESROOT.'/tiempo_indisponibilidad/model.tiempo_indisponibilidad.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-sla-computation/model.combodo-sla-computation.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-sla-computation/main.combodo-sla-computation.php');
 MetaModel::IncludeModule(MODULESROOT.'/incidentes_modificacion_vista/model.incidentes_modificacion_vista.php');
+MetaModel::IncludeModule(MODULESROOT.'/indisponibilidad/model.indisponibilidad.php');
 function GetModulesInfo()
 {
 $sCurrEnv = 'env-'.utils::GetCurrentEnvironment();
@@ -218,6 +220,11 @@ return array (
     'root_dir' => $sCurrEnv.'/service-family-request',
     'version' => '1.0.0',
   ),
+  'tiempo_indisponibilidad' => 
+  array (
+    'root_dir' => $sCurrEnv.'/tiempo_indisponibilidad',
+    'version' => '1.0.0',
+  ),
   'combodo-sla-computation' => 
   array (
     'root_dir' => $sCurrEnv.'/combodo-sla-computation',
@@ -226,6 +233,11 @@ return array (
   'incidentes_modificacion_vista' => 
   array (
     'root_dir' => $sCurrEnv.'/incidentes_modificacion_vista',
+    'version' => '1.0.0',
+  ),
+  'indisponibilidad' => 
+  array (
+    'root_dir' => $sCurrEnv.'/indisponibilidad',
     'version' => '1.0.0',
   ),
   'itop-full-itil' => 

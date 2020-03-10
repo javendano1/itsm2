@@ -453,6 +453,12 @@
 							</attribute>
 							<attribute id="resolution_code">
 								<hidden/>
+								</attribute>
+							<attribute id="indisponibilidad">
+								<hidden/>
+							</attribute>
+							<attribute id="tiempo_indisponibilidad">
+								<hidden/>
 							</attribute>
 							<attribute id="solution">
 								<hidden/>
@@ -840,6 +846,13 @@
 								<mandatory/>
 								<must_prompt/>
 							</attribute>
+							<attribute id="indisponibilidad">
+								<mandatory/>
+								<must_prompt/>
+							</attribute>
+							<attribute id="tiempo_indisponibilidad">
+								<must_prompt/>
+							</attribute>
 							<attribute id="solution">
 								<mandatory/>
 								<must_prompt/>
@@ -927,6 +940,12 @@
 								<read_only/>
 							</attribute>
 							<attribute id="resolution_code">
+								<read_only/>
+							</attribute>
+							<attribute id="indisponibilidad">
+								<read_only/>
+							</attribute>
+							<attribute id="tiempo_indisponibilidad">
 								<read_only/>
 							</attribute>
 							<attribute id="solution">

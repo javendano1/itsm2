@@ -58,3 +58,19 @@
 2019-11-14 13:52:44 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co
 2020-03-10 10:04:35 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, jbenavidez@alltic.co
 2020-03-10 10:24:36 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, jcastano@alltic.co
+2020-03-10 11:56:47 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jbenavidez@alltic.co, javendano@alltic.co
+2020-03-10 11:57:01 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, jbenavidez@alltic.co
+2020-03-10 11:57:01 | Error | Error: estimulo invalido "ev_reopen" en objeto I-000095 en estado "Asignado".
+2020-03-10 11:57:10 | Error | Error: estimulo invalido "ev_reopen" en objeto I-000095 en estado "Asignado".
+2020-03-10 11:57:16 | Error | Error: estimulo invalido "ev_reopen" en objeto I-000095 en estado "Asignado".
+2020-03-10 11:57:45 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jbenavidez@alltic.co, javendano@alltic.co
+2020-03-10 12:00:13 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, jcastano@alltic.co
+2020-03-10 12:00:44 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: khernandez@alltic.co, victor.garcia@myqorg.biz
+2020-03-10 12:01:00 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: victor.garcia@myqorg.biz, khernandez@alltic.co
+2020-03-10 14:27:39 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jmartinez@alltic.co, mangel@alltic.co
+2020-03-10 16:11:52 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: mangel@alltic.co, jmartinez@alltic.co
+2020-03-10 16:12:05 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, mangel@alltic.co
+2020-03-10 16:12:19 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: mangel@alltic.co, javendano@alltic.co
+2020-03-10 16:13:42 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: it@alltic.co
+2020-03-10 16:13:50 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, agomez@alltic.co
+2020-03-10 16:14:40 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: agomez@alltic.co, javendano@alltic.co
