@@ -168,8 +168,14 @@
 										<item id="user_satisfaction">
 											<rank>40</rank>
 										</item>
-										<item id="user_comment">
+										<item id="clarity_information">
 											<rank>50</rank>
+										</item>
+										<item id="time_required">
+											<rank>60</rank>
+										</item>
+										<item id="user_comment">
+											<rank>70</rank>
 										</item>
 									</items>
 								</item>

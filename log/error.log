@@ -74,3 +74,13 @@
 2020-03-10 16:13:42 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: it@alltic.co
 2020-03-10 16:13:50 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, agomez@alltic.co
 2020-03-10 16:14:40 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: agomez@alltic.co, javendano@alltic.co
+2020-03-26 18:19:52 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, mleal@alltic.co
+2020-03-26 18:20:08 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: mleal@alltic.co, javendano@alltic.co
+2020-03-26 19:21:03 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co, jlozano@alltic.co
+2020-03-26 19:21:13 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jlozano@alltic.co, javendano@alltic.co
+2020-03-27 14:25:03 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: it@alltic.co
+2020-03-27 14:25:11 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co
+2020-03-27 14:25:22 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co
+2020-03-27 14:25:48 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: it@alltic.co
+2020-03-27 14:25:56 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co
+2020-03-27 14:26:04 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co

@@ -171,8 +171,14 @@
 										<item id="user_satisfaction">
 											<rank>50</rank>
 										</item>
-										<item id="user_comment">
+										<item id="clarity_information">
 											<rank>60</rank>
+										</item>
+										<item id="time_required">
+											<rank>70</rank>
+										</item>
+										<item id="user_comment">
+											<rank>80</rank>
 										</item>
 									</items>
 								</item>
