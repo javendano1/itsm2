@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2020-03-27T19:30:53+0000
+// File generated on 2020-05-18T21:31:56+0200
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
@@ -8,6 +8,8 @@ MetaModel::IncludeModule(MODULESROOT.'/authent-external/model.authent-external.p
 MetaModel::IncludeModule(MODULESROOT.'/authent-ldap/model.authent-ldap.php');
 MetaModel::IncludeModule(MODULESROOT.'/authent-local/model.authent-local.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-autoclose-ticket/main.combodo-autoclose-ticket.php');
+MetaModel::IncludeModule(MODULESROOT.'/combodo-email-synchro/classes/autoload.php');
+MetaModel::IncludeModule(MODULESROOT.'/combodo-email-synchro/model.combodo-email-synchro.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-attachments/model.itop-attachments.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-attachments/main.attachments.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-backup/main.itop-backup.php');
@@ -28,6 +30,7 @@ MetaModel::IncludeModule(MODULESROOT.'/itop-portal-base/portal/src/routers/abstr
 MetaModel::IncludeModule(MODULESROOT.'/itop-portal/main.itop-portal.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-profiles-itil/model.itop-profiles-itil.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-sla-computation/main.itop-sla-computation.php');
+MetaModel::IncludeModule(MODULESROOT.'/itop-standard-email-synchro/model.itop-standard-email-synchro.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-storage-mgmt/model.itop-storage-mgmt.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-tickets/main.itop-tickets.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-tickets/model.itop-tickets.php');
@@ -90,6 +93,11 @@ return array (
     'root_dir' => $sCurrEnv.'/combodo-autoclose-ticket',
     'version' => '1.0.1',
   ),
+  'combodo-email-synchro' => 
+  array (
+    'root_dir' => $sCurrEnv.'/combodo-email-synchro',
+    'version' => '3.2.0',
+  ),
   'itop-attachments' => 
   array (
     'root_dir' => $sCurrEnv.'/itop-attachments',
@@ -144,6 +152,11 @@ return array (
   array (
     'root_dir' => $sCurrEnv.'/itop-sla-computation',
     'version' => '2.6.1',
+  ),
+  'itop-standard-email-synchro' => 
+  array (
+    'root_dir' => $sCurrEnv.'/itop-standard-email-synchro',
+    'version' => '3.1.0',
   ),
   'itop-storage-mgmt' => 
   array (

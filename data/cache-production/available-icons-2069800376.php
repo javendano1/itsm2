@@ -4,6 +4,7 @@ class AvailableIcons_2069800376
 {
    static $sKey = 'C:\\wamp64\\www\\itsm2/env-production/';
    static $aIconFiles = array (
+  'mailbox.png_combodo-email-synchro/images' => 'combodo-email-synchro/images/mailbox.png',
   'calendar.png_combodo-sla-computation/images' => 'combodo-sla-computation/images/calendar.png',
   'coverage-window.png_combodo-sla-computation/images' => 'combodo-sla-computation/images/coverage-window.png',
   'holiday.png_combodo-sla-computation/images' => 'combodo-sla-computation/images/holiday.png',
@@ -104,6 +105,7 @@ class AvailableIcons_2069800376
   'service.png_itop-service-mgmt' => 'itop-service-mgmt/service.png',
   'sla.png_itop-service-mgmt' => 'itop-service-mgmt/sla.png',
   'slt.png_itop-service-mgmt' => 'itop-service-mgmt/slt.png',
+  'mailbox.png_itop-standard-email-synchro/images' => 'itop-standard-email-synchro/images/mailbox.png',
   'diskarray.png_itop-storage-mgmt/images' => 'itop-storage-mgmt/images/diskarray.png',
   'fc-interface.png_itop-storage-mgmt/images' => 'itop-storage-mgmt/images/fc-interface.png',
   'filesystem.png_itop-storage-mgmt/images' => 'itop-storage-mgmt/images/filesystem.png',
