@@ -113,10 +113,10 @@
                       <rank>30</rank>
                     </item>
                     <item id="serialnumber">
-                      <rank>40</rank>
+                      <rank>50</rank>
                     </item>
                     <item id="asset_number">
-                      <rank>50</rank>
+                      <rank>60</rank>
                     </item>
                   </items>
                 </item>
@@ -137,6 +137,9 @@
                     <item id="end_of_warranty">
                       <rank>30</rank>
                     </item>
+					<item id="last_maintenance">
+						<rank>40</rank>
+					</item>
                   </items>
                 </item>
                 <item id="fieldset:Server:power">
@@ -211,6 +214,9 @@
             </item>
             <item id="end_of_warranty">
               <rank>140</rank>
+            </item>
+			<item id="last_maintenance">
+              <rank>150</rank>
             </item>
           </items>
         </search>
@@ -395,6 +401,9 @@
                     <item id="end_of_warranty">
                       <rank>30</rank>
                     </item>
+					<item id="last_maintenance">
+					<rank>40</rank>
+					</item>
                   </items>
                 </item>
                 <item id="fieldset:Server:power">
@@ -469,6 +478,9 @@
             </item>
             <item id="end_of_warranty">
               <rank>140</rank>
+            </item>
+			<item id="last_maintenance">
+              <rank>150</rank>
             </item>
           </items>
         </search>
@@ -653,6 +665,9 @@
                     <item id="end_of_warranty">
                       <rank>30</rank>
                     </item>
+					<item id="last_maintenance">
+						<rank>40</rank>
+					</item>
                   </items>
                 </item>
                 <item id="fieldset:Server:power">
@@ -727,6 +742,9 @@
             </item>
             <item id="end_of_warranty">
               <rank>140</rank>
+            </item>
+			<item id="last_maintenance">
+              <rank>150</rank>
             </item>
           </items>
         </search>
@@ -911,6 +929,9 @@
                     <item id="end_of_warranty">
                       <rank>30</rank>
                     </item>
+					<item id="last_maintenance">
+						<rank>40</rank>
+					</item>
                   </items>
                 </item>
                 <item id="fieldset:Server:power">
@@ -985,6 +1006,9 @@
             </item>
             <item id="end_of_warranty">
               <rank>140</rank>
+            </item>
+			<item id="last_maintenance">
+              <rank>150</rank>
             </item>
           </items>
         </search>

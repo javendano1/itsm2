@@ -383,6 +383,8 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellaño', array(
 	'Class:PhysicalDevice/Attribute:purchase_date+' => 'Fecha de Compra',
 	'Class:PhysicalDevice/Attribute:end_of_warranty' => 'Vencimiento de Garantía',
 	'Class:PhysicalDevice/Attribute:end_of_warranty+' => 'Vencimiento de Garantía',
+	'Class:PhysicalDevice/Attribute:last_maintenance' => 'Ultimo mantenimiento realizado',
+	'Class:PhysicalDevice/Attribute:lastt_maintenance+' => 'Ultimo mantenimiento realizado',
 ));
 
 //
@@ -546,6 +548,10 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellaño', array(
 	'Class:Server/Attribute:cpu+' => 'CPU',
 	'Class:Server/Attribute:ram' => 'RAM',
 	'Class:Server/Attribute:ram+' => 'RAM',
+	'Class:Server/Attribute:type_disc' => 'Tipo disco duro',
+	'Class:Server/Attribute:type_disc+' => 'Tipo disco duro',
+	'Class:Server/Attribute:hard_disc' => 'Tamaño almacenamiento',
+	'Class:Server/Attribute:hard_disc+' => 'Tamaño almacenamiento',
 	'Class:Server/Attribute:logicalvolumes_list' => 'Volumenes Lógicos',
 	'Class:Server/Attribute:logicalvolumes_list+' => 'Volumenes Lógicos',
 ));

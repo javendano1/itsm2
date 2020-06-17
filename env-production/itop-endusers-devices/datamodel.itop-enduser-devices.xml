@@ -841,6 +841,22 @@
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
+		<field id="type_disc" xsi:type="AttributeEnum">
+          <values>
+            <value id="hdd">hdd</value>
+            <value id="ssd">ssd</value>
+            <value id="hdd-ssd">hdd-ssd</value>
+          </values>
+          <sql>type_disc</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          <display_style>list</display_style>
+        </field>
+		<field id="hard_disc" xsi:type="AttributeString">
+          <sql>hard_disc</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
         <field id="type" xsi:type="AttributeEnum">
           <values>
             <value id="laptop">laptop</value>
@@ -924,11 +940,17 @@
                     <item id="ram">
                       <rank>70</rank>
                     </item>
-                    <item id="serialnumber">
+					<item id="type_disc">
                       <rank>80</rank>
                     </item>
-                    <item id="asset_number">
+					<item id="hard_disc">
                       <rank>90</rank>
+                    </item>
+                    <item id="serialnumber">
+                      <rank>100</rank>
+                    </item>
+                    <item id="asset_number">
+                      <rank>110</rank>
                     </item>
                   </items>
                 </item>
@@ -948,6 +970,9 @@
                     </item>
                     <item id="end_of_warranty">
                       <rank>30</rank>
+                    </item>
+					<item id="last_maintenance">
+                      <rank>40</rank>
                     </item>
                   </items>
                 </item>

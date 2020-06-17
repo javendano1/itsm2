@@ -278,6 +278,47 @@ $MyModuleSettings = array(
 		'incident_autoclose_delay' => '7',
 		'userrequest_autoclose_delay' => '7',
 	),
+	'combodo-email-synchro' => array (
+		'notify_errors_to' => '',
+		'notify_errors_from' => '',
+		'debug' => false,
+		'periodicity' => 30,
+		'body_parts_order' => 'text/html,text/plain',
+		'pop3_auth_option' => 'USER',
+		'imap_options' => array (
+		  0 => 'imap',
+		  1 => 'ssl',
+		  2 => 'novalidate-cert',
+		),
+		'maximum_email_size' => '10M',
+		'big_files_dir' => '',
+		'exclude_attachment_types' => array (
+		  0 => 'application/exe',
+		),
+		'introductory-patterns' => array (
+		  0 => '/^le .+ a écrit :$/i',
+		  1 => '/^on .+ wrote:$/i',
+		  2 => '|^[0-9]{4}/[0-9]{1,2}/[0-9]{1,2} .+:$|',
+		),
+		'multiline-delimiter-patterns' => array (
+		  0 => '/\\RFrom: .+\\RSent: .+\\R/m',
+		  1 => '/\\R_+\\R/m',
+		  2 => '/\\RDe : .+\\R\\R?Envoyé : /m',
+		  3 => '/\\RDe : .+\\RDate d\'envoi : .+\\R/m',
+		  4 => '/\\R-----Message d\'origine-----\\R/m',
+		),
+		'use_message_id_as_uid' => false,
+		'images_minimum_size' => '100x20',
+		'images_maximum_size' => '',
+		'recommended_max_allowed_packet' => 10485760,
+	),
+	'itop-standard-email-synchro' => array (
+		'inline_image_max_width' => '500',
+		'ticket_log' => array (
+		  'UserRequest' => 'public_log',
+		  'Incident' => 'public_log',
+		),
+	),
 );
 
 /**

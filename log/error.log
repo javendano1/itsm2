@@ -84,3 +84,9 @@
 2020-03-27 14:25:48 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: it@alltic.co
 2020-03-27 14:25:56 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co
 2020-03-27 14:26:04 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: javendano@alltic.co
+2020-05-19 21:28:48 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: khernandez@alltic.co, it@alltic.co
+2020-05-19 21:45:30 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: khernandez@alltic.co, khernandez@alltic.co
+2020-05-19 21:48:52 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: khernandez@alltic.co, it@alltic.co
+2020-05-19 21:49:00 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: pmesias@alltic.co, khernandez@alltic.co
+2020-06-16 11:40:45 | Info | mysqldump -V 2>&1 said: "mysqldump" no se reconoce como un comando interno o externo,
+2020-06-16 11:40:45 | Info | mysqldump -V 2>&1 said: programa o archivo por lotes ejecutable.
