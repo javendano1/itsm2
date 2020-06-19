@@ -1,1 +1,0 @@
-var aDictEntries = {"UI:Combo:SelectValue":"--- seleccione un valor ---"}

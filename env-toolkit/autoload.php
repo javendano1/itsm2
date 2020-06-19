@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2020-05-29T17:47:07-0500
+// File generated on 2020-06-17T18:04:03-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
@@ -37,7 +37,9 @@ MetaModel::IncludeModule(MODULESROOT.'/itop-tickets/model.itop-tickets.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-virtualization-mgmt/model.itop-virtualization-mgmt.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-welcome-itil/main.itop-welcome-itil.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-welcome-itil/model.itop-welcome-itil.php');
+MetaModel::IncludeModule(MODULESROOT.'/monitor-add-class/model.monitor-add-class.php');
 MetaModel::IncludeModule(MODULESROOT.'/codigo_externo/model.codigo_externo.php');
+MetaModel::IncludeModule(MODULESROOT.'/dvr-add-class/model.dvr-add-class.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-bridge-virtualization-storage/model.itop-bridge-virtualization-storage.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-change-mgmt-itil/model.itop-change-mgmt-itil.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-incident-mgmt-itil/model.itop-incident-mgmt-itil.php');
@@ -178,9 +180,19 @@ return array (
     'root_dir' => $sCurrEnv.'/itop-welcome-itil',
     'version' => '2.6.1',
   ),
+  'monitor-add-class' => 
+  array (
+    'root_dir' => $sCurrEnv.'/monitor-add-class',
+    'version' => '1.0.0',
+  ),
   'codigo_externo' => 
   array (
     'root_dir' => $sCurrEnv.'/codigo_externo',
+    'version' => '1.0.0',
+  ),
+  'dvr-add-class' => 
+  array (
+    'root_dir' => $sCurrEnv.'/dvr-add-class',
     'version' => '1.0.0',
   ),
   'itop-bridge-virtualization-storage' => 

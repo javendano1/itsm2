@@ -8,6 +8,8 @@ class AvailableIcons_2069800376
   'calendar.png_combodo-sla-computation/images' => 'combodo-sla-computation/images/calendar.png',
   'coverage-window.png_combodo-sla-computation/images' => 'combodo-sla-computation/images/coverage-window.png',
   'holiday.png_combodo-sla-computation/images' => 'combodo-sla-computation/images/holiday.png',
+  'dvr.png_dvr-add-class/images' => 'dvr-add-class/images/dvr.png',
+  'monitor.png_dvr-add-class/images' => 'dvr-add-class/images/monitor.png',
   'doc.png_itop-attachments/icons' => 'itop-attachments/icons/doc.png',
   'document.png_itop-attachments/icons' => 'itop-attachments/icons/document.png',
   'html.png_itop-attachments/icons' => 'itop-attachments/icons/html.png',
@@ -126,5 +128,6 @@ class AvailableIcons_2069800376
   'vlan.png_itop-virtualization-mgmt/images' => 'itop-virtualization-mgmt/images/vlan.png',
   'database.png_itop-welcome-itil/images' => 'itop-welcome-itil/images/database.png',
   'user-request-deadline.png_itop-welcome-itil/images' => 'itop-welcome-itil/images/user-request-deadline.png',
+  'monitor.png_monitor-add-class/images' => 'monitor-add-class/images/monitor.png',
 );
 }
