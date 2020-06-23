@@ -1,13 +1,12 @@
 <?php
 //
-// File generated on 2020-06-17T18:04:03-0500
+// File generated on 2020-06-22T21:44:57-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
 MetaModel::IncludeModule(MODULESROOT.'/authent-external/model.authent-external.php');
 MetaModel::IncludeModule(MODULESROOT.'/authent-ldap/model.authent-ldap.php');
 MetaModel::IncludeModule(MODULESROOT.'/authent-local/model.authent-local.php');
-MetaModel::IncludeModule(MODULESROOT.'/combodo-autoclose-ticket/main.combodo-autoclose-ticket.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-email-synchro/classes/autoload.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-email-synchro/model.combodo-email-synchro.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-attachments/model.itop-attachments.php');
@@ -89,11 +88,6 @@ return array (
   array (
     'root_dir' => $sCurrEnv.'/authent-local',
     'version' => '2.6.1',
-  ),
-  'combodo-autoclose-ticket' => 
-  array (
-    'root_dir' => $sCurrEnv.'/combodo-autoclose-ticket',
-    'version' => '1.0.1',
   ),
   'combodo-email-synchro' => 
   array (
