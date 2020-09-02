@@ -137,8 +137,14 @@
                     <item id="end_of_warranty">
                       <rank>30</rank>
                     </item>
-					<item id="last_maintenance">
+					<item id="platform_date">
 						<rank>40</rank>
+					</item>
+					<item id="last_maintenance">
+						<rank>50</rank>
+					</item>
+					<item id="next_maintenance">
+						<rank>60</rank>
 					</item>
                   </items>
                 </item>
@@ -215,8 +221,14 @@
             <item id="end_of_warranty">
               <rank>140</rank>
             </item>
-			<item id="last_maintenance">
+			<item id="platform_date">
               <rank>150</rank>
+            </item>
+			<item id="last_maintenance">
+              <rank>160</rank>
+            </item>
+			<item id="next_maintenance">
+              <rank>170</rank>
             </item>
           </items>
         </search>
@@ -401,8 +413,14 @@
                     <item id="end_of_warranty">
                       <rank>30</rank>
                     </item>
-					<item id="last_maintenance">
+					<item id="platform_date">
 					<rank>40</rank>
+					</item>
+					<item id="last_maintenance">
+					<rank>50</rank>
+					</item>
+					<item id="next_maintenance">
+					<rank>60</rank>
 					</item>
                   </items>
                 </item>
@@ -479,8 +497,14 @@
             <item id="end_of_warranty">
               <rank>140</rank>
             </item>
-			<item id="last_maintenance">
+			<item id="platform_date">
               <rank>150</rank>
+            </item>
+			<item id="last_maintenance">
+              <rank>160</rank>
+            </item>
+			<item id="next_maintenance">
+              <rank>170</rank>
             </item>
           </items>
         </search>
@@ -665,8 +689,14 @@
                     <item id="end_of_warranty">
                       <rank>30</rank>
                     </item>
-					<item id="last_maintenance">
+					<item id="platform_date">
 						<rank>40</rank>
+					</item>
+					<item id="last_maintenance">
+						<rank>50</rank>
+					</item>
+					<item id="next_maintenance">
+						<rank>60</rank>
 					</item>
                   </items>
                 </item>
@@ -743,8 +773,14 @@
             <item id="end_of_warranty">
               <rank>140</rank>
             </item>
-			<item id="last_maintenance">
+			<item id="platform_date">
               <rank>150</rank>
+            </item>
+			<item id="last_maintenance">
+              <rank>160</rank>
+            </item>
+			<item id="next_maintenance">
+              <rank>170</rank>
             </item>
           </items>
         </search>
@@ -929,8 +965,14 @@
                     <item id="end_of_warranty">
                       <rank>30</rank>
                     </item>
-					<item id="last_maintenance">
+					<item id="platform_date">
 						<rank>40</rank>
+					</item>
+					<item id="last_maintenance">
+						<rank>50</rank>
+					</item>
+					<item id="next_maintenance">
+						<rank>60</rank>
 					</item>
                   </items>
                 </item>
@@ -1007,8 +1049,14 @@
             <item id="end_of_warranty">
               <rank>140</rank>
             </item>
-			<item id="last_maintenance">
+			<item id="platform_date">
               <rank>150</rank>
+            </item>
+			<item id="last_maintenance">
+              <rank>160</rank>
+            </item>
+			<item id="next_maintenance">
+              <rank>170</rank>
             </item>
           </items>
         </search>

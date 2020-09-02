@@ -1870,8 +1870,18 @@
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
+		<field id="platform_date" xsi:type="AttributeDate">
+          <sql>platform_date</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
 		 <field id="last_maintenance" xsi:type="AttributeDate">
           <sql>last_maintenance</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+		<field id="next_maintenance" xsi:type="AttributeDate">
+          <sql>next_maintenance</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
@@ -1916,17 +1926,23 @@
             <item id="end_of_warranty">
               <rank>120</rank>
             </item>
-			<item id="last_maintenance">
+			<item id="platform_date">
               <rank>130</rank>
             </item>
-            <item id="description">
+			<item id="last_maintenance">
               <rank>140</rank>
             </item>
-            <item id="contacts_list">
+			<item id="next_maintenance">
               <rank>150</rank>
             </item>
-            <item id="documents_list">
+            <item id="description">
               <rank>160</rank>
+            </item>
+            <item id="contacts_list">
+              <rank>170</rank>
+            </item>
+            <item id="documents_list">
+              <rank>180</rank>
             </item>
           </items>
         </details>
@@ -1981,8 +1997,14 @@
             <item id="end_of_warranty">
               <rank>120</rank>
             </item>
-			<item id="last_maintenance">
+			<item id="platform_date">
               <rank>130</rank>
+            </item>
+			<item id="last_maintenance">
+              <rank>140</rank>
+            </item>
+			<item id="next_maintenance">
+              <rank>150</rank>
             </item>
           </items>
         </search>
@@ -2098,20 +2120,26 @@
             <item id="end_of_warranty">
               <rank>120</rank>
             </item>
-			 <item id="last_maintenance">
+			<item id="platform_date">
               <rank>130</rank>
             </item>
-            <item id="description">
+			 <item id="last_maintenance">
               <rank>140</rank>
             </item>
-            <item id="contacts_list">
+			 <item id="next_maintenance">
               <rank>150</rank>
             </item>
-            <item id="documents_list">
+            <item id="description">
               <rank>160</rank>
             </item>
-            <item id="networkdevice_list">
+            <item id="contacts_list">
               <rank>170</rank>
+            </item>
+            <item id="documents_list">
+              <rank>180</rank>
+            </item>
+            <item id="networkdevice_list">
+              <rank>190</rank>
             </item>
           </items>
         </details>
@@ -2153,8 +2181,14 @@
             <item id="end_of_warranty">
               <rank>120</rank>
             </item>
-			 <item id="last_maintenance">
+			<item id="platform_date">
               <rank>130</rank>
+            </item>
+			 <item id="last_maintenance">
+              <rank>140</rank>
+            </item>
+			<item id="next_maintenance">
+              <rank>150</rank>
             </item>
           </items>
         </search>
@@ -2646,8 +2680,14 @@
                     <item id="end_of_warranty">
                       <rank>30</rank>
                     </item>
-					<item id="last_maintenance">
+					<item id="platform_date">
                       <rank>40</rank>
+                    </item>
+					<item id="last_maintenance">
+                      <rank>50</rank>
+                    </item>
+					<item id="next_maintenance">
+                      <rank>60</rank>
                     </item>
                   </items>
                 </item>
@@ -2838,11 +2878,17 @@
           <extkey_attcode>oslicence_id</extkey_attcode>
           <target_attcode>name</target_attcode>
         </field>
+		<field id="host_name" xsi:type="AttributeString">
+          <sql>host_name</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
         <field id="cpu" xsi:type="AttributeString">
           <sql>cpu</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
+		
         <field id="ram" xsi:type="AttributeString">
           <sql>ram</sql>
           <default_value/>
@@ -2959,26 +3005,29 @@
                     <item id="oslicence_id">
                       <rank>50</rank>
                     </item>
-                    <item id="cpu">
+					 <item id="host_name">
                       <rank>60</rank>
                     </item>
-                    <item id="ram">
+                    <item id="cpu">
                       <rank>70</rank>
                     </item>
-					<item id="type_disc">
+                    <item id="ram">
                       <rank>80</rank>
                     </item>
-					<item id="hard_disc">
+					<item id="type_disc">
                       <rank>90</rank>
                     </item>
-                    <item id="nb_u">
+					<item id="hard_disc">
                       <rank>100</rank>
                     </item>
-                    <item id="serialnumber">
+                    <item id="nb_u">
                       <rank>110</rank>
                     </item>
-                    <item id="asset_number">
+                    <item id="serialnumber">
                       <rank>120</rank>
+                    </item>
+                    <item id="asset_number">
+                      <rank>130</rank>
                     </item>
                   </items>
                 </item>
@@ -2999,8 +3048,14 @@
                     <item id="end_of_warranty">
                       <rank>30</rank>
                     </item>
-					 <item id="last_maintenance">
+					 <item id="platform_date">
                       <rank>40</rank>
+                    </item>
+					 <item id="last_maintenance">
+                      <rank>50</rank>
+                    </item>
+					 <item id="next_maintenance">
+                      <rank>60</rank>
                     </item>
                   </items>
                 </item>
@@ -3077,8 +3132,14 @@
             <item id="end_of_warranty">
               <rank>140</rank>
             </item>
-			  <item id="last_maintenance">
+			 <item id="platform_date">
               <rank>150</rank>
+            </item>
+			  <item id="last_maintenance">
+              <rank>160</rank>
+            </item>
+			 <item id="next_maintenance">
+              <rank>170</rank>
             </item>
           </items>
         </search>

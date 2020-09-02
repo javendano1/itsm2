@@ -857,6 +857,16 @@
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
+		<field id="charger" xsi:type="AttributeString">
+          <sql>charger</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+		<field id="host_name" xsi:type="AttributeString">
+          <sql>host_name</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
         <field id="type" xsi:type="AttributeEnum">
           <values>
             <value id="laptop">laptop</value>
@@ -934,23 +944,29 @@
                     <item id="type">
                       <rank>50</rank>
                     </item>
-                    <item id="cpu">
+					<item id="host_name">
                       <rank>60</rank>
                     </item>
-                    <item id="ram">
+                    <item id="cpu">
                       <rank>70</rank>
                     </item>
-					<item id="type_disc">
+                    <item id="ram">
                       <rank>80</rank>
                     </item>
-					<item id="hard_disc">
+					<item id="type_disc">
                       <rank>90</rank>
                     </item>
-                    <item id="serialnumber">
+					<item id="hard_disc">
                       <rank>100</rank>
                     </item>
-                    <item id="asset_number">
+					<item id="charger">
                       <rank>110</rank>
+                    </item>
+                    <item id="serialnumber">
+                      <rank>120</rank>
+                    </item>
+                    <item id="asset_number">
+                      <rank>130</rank>
                     </item>
                   </items>
                 </item>
@@ -971,8 +987,14 @@
                     <item id="end_of_warranty">
                       <rank>30</rank>
                     </item>
-					<item id="last_maintenance">
+					<item id="platform_date">
                       <rank>40</rank>
+                    </item>
+					<item id="last_maintenance">
+                      <rank>50</rank>
+                    </item>
+					<item id="next_maintenance">
+                      <rank>60</rank>
                     </item>
                   </items>
                 </item>

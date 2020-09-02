@@ -383,6 +383,12 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:PhysicalDevice/Attribute:purchase_date+' => '',
 	'Class:PhysicalDevice/Attribute:end_of_warranty' => 'End of warranty',
 	'Class:PhysicalDevice/Attribute:end_of_warranty+' => '',
+	'Class:PhysicalDevice/Attribute:platform_date' => 'Platform date',
+	'Class:PhysicalDevice/Attribute:platform_date+' => '',
+	'Class:PhysicalDevice/Attribute:last_maintenance' => 'last maintenance',
+	'Class:PhysicalDevice/Attribute:last_maintenance+' => '',
+	'Class:PhysicalDevice/Attribute:next_maintenance' => 'Next maintenance',
+	'Class:PhysicalDevice/Attribute:next_maintenance+' => '',
 ));
 
 //
@@ -546,6 +552,10 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:Server/Attribute:cpu+' => '',
 	'Class:Server/Attribute:ram' => 'RAM',
 	'Class:Server/Attribute:ram+' => '',
+	'Class:Server/Attribute:type_disc' => 'Type disc',
+	'Class:Server/Attribute:type_disc+' => '',
+	'Class:Server/Attribute:hard_disc' => 'Hard disc',
+	'Class:Server/Attribute:hard_disc+' => '',
 	'Class:Server/Attribute:logicalvolumes_list' => 'Logical volumes',
 	'Class:Server/Attribute:logicalvolumes_list+' => 'All the logical volumes connected to this server',
 ));
