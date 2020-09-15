@@ -4,75 +4,75 @@
 //
 Dict::SetLanguagesList(
 array (
+  'IT IT' => 
+  array (
+    'description' => 'Italian',
+    'localized_description' => 'Italiano',
+  ),
   'CS CZ' => 
   array (
     'description' => 'Czech',
     'localized_description' => 'Čeština',
-  ),
-  'DA DA' => 
-  array (
-    'description' => 'Danish',
-    'localized_description' => 'Dansk',
   ),
   'DE DE' => 
   array (
     'description' => 'German',
     'localized_description' => 'Deutsch',
   ),
-  'EN US' => 
+  'NL NL' => 
   array (
-    'description' => 'English',
-    'localized_description' => 'English',
-  ),
-  'ES CR' => 
-  array (
-    'description' => 'Spanish',
-    'localized_description' => 'Español, Castellaño',
-  ),
-  'FR FR' => 
-  array (
-    'description' => 'French',
-    'localized_description' => 'Français',
-  ),
-  'HU HU' => 
-  array (
-    'description' => 'Hungarian',
-    'localized_description' => 'Magyar',
-  ),
-  'IT IT' => 
-  array (
-    'description' => 'Italian',
-    'localized_description' => 'Italiano',
+    'description' => 'Dutch',
+    'localized_description' => 'Nederlands',
   ),
   'JA JP' => 
   array (
     'description' => 'Japanese',
     'localized_description' => '日本語',
   ),
-  'NL NL' => 
+  'FR FR' => 
   array (
-    'description' => 'Dutch',
-    'localized_description' => 'Nederlands',
+    'description' => 'French',
+    'localized_description' => 'Français',
   ),
-  'PT BR' => 
+  'ES CR' => 
   array (
-    'description' => 'Brazilian',
-    'localized_description' => 'Brazilian',
+    'description' => 'Spanish',
+    'localized_description' => 'Español, Castellaño',
+  ),
+  'ZH CN' => 
+  array (
+    'description' => 'Chinese',
+    'localized_description' => '简体中文',
+  ),
+  'DA DA' => 
+  array (
+    'description' => 'Danish',
+    'localized_description' => 'Dansk',
+  ),
+  'HU HU' => 
+  array (
+    'description' => 'Hungarian',
+    'localized_description' => 'Magyar',
   ),
   'RU RU' => 
   array (
     'description' => 'Russian',
     'localized_description' => 'Русский',
   ),
+  'PT BR' => 
+  array (
+    'description' => 'Brazilian',
+    'localized_description' => 'Brazilian',
+  ),
+  'EN US' => 
+  array (
+    'description' => 'English',
+    'localized_description' => 'English',
+  ),
   'TR TR' => 
   array (
     'description' => 'Turkish',
     'localized_description' => 'Türkçe',
-  ),
-  'ZH CN' => 
-  array (
-    'description' => 'Chinese',
-    'localized_description' => '简体中文',
   ),
 )
 );

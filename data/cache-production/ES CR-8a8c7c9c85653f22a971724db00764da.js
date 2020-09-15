@@ -1,0 +1,1 @@
+var aDictEntries = {"UI:FillAllMandatoryFields":"Por favor llenar los campos obligatorios.","UI:Combo:SelectValue":"--- seleccione un valor ---"}

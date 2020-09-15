@@ -90,3 +90,107 @@
 2020-05-19 21:49:00 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: pmesias@alltic.co, khernandez@alltic.co
 2020-06-16 11:40:45 | Info | mysqldump -V 2>&1 said: "mysqldump" no se reconoce como un comando interno o externo,
 2020-06-16 11:40:45 | Info | mysqldump -V 2>&1 said: programa o archivo por lotes ejecutable.
+2020-09-02 23:30:02 | Info | Creating backup: '/home/alltic/public_html/itsm/data/backups/auto/alltic_itsm-2020-09-02_23_30.tar.gz'
+2020-09-02 23:30:02 | Info | backup: creating tmp dir '/home/alltic/public_html/itsm/data/tmp-backup-528556180'
+2020-09-02 23:30:02 | Info | backup: adding resource '/home/alltic/public_html/itsm/conf/production/config-itop.php'
+2020-09-02 23:30:02 | Info | Starting backup of localhost/alltic_itsm(suffix:'')
+2020-09-02 23:30:02 | Info | backup: generate data file with command: mysqldump --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='localhost'  --port='3306' --user=xxxxx --password=xxxxx  --result-file='/home/alltic/public_html/itsm/data/tmp-backup-528556180/itop-dump.sql' 'alltic_itsm' 
+2020-09-02 23:30:07 | Info | mysqldump said: Warning: Using a password on the command line interface can be insecure.
+2020-09-02 23:30:08 | Info | backup: adding to archive files 'array (
+  0 => '/home/alltic/public_html/itsm/data/tmp-backup-528556180/config-itop.php',
+  1 => '/home/alltic/public_html/itsm/data/tmp-backup-528556180/itop-dump.sql',
+)'
+2020-09-02 23:30:10 | Info | backup: removing tmp folder '/home/alltic/public_html/itsm/data/tmp-backup-528556180'
+2020-09-03 15:14:00 | Error | UI.php 'apply_stimulus' : invalid transaction_id ! data: user='chernandez', class='Incident'
+2020-09-03 15:22:26 | Error | Error: estimulo invalido "ev_pending" en objeto I-000811 en estado "Pendiente".
+2020-09-03 15:22:32 | Error | Error: estimulo invalido "ev_pending" en objeto I-000811 en estado "Pendiente".
+2020-09-03 23:30:02 | Info | Creating backup: '/home/alltic/public_html/itsm/data/backups/auto/alltic_itsm-2020-09-03_23_30.tar.gz'
+2020-09-03 23:30:02 | Info | backup: creating tmp dir '/home/alltic/public_html/itsm/data/tmp-backup-1790864174'
+2020-09-03 23:30:02 | Info | backup: adding resource '/home/alltic/public_html/itsm/conf/production/config-itop.php'
+2020-09-03 23:30:02 | Info | Starting backup of localhost/alltic_itsm(suffix:'')
+2020-09-03 23:30:02 | Info | backup: generate data file with command: mysqldump --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='localhost'  --port='3306' --user=xxxxx --password=xxxxx  --result-file='/home/alltic/public_html/itsm/data/tmp-backup-1790864174/itop-dump.sql' 'alltic_itsm' 
+2020-09-03 23:30:05 | Info | mysqldump said: Warning: Using a password on the command line interface can be insecure.
+2020-09-03 23:30:05 | Info | backup: adding to archive files 'array (
+  0 => '/home/alltic/public_html/itsm/data/tmp-backup-1790864174/config-itop.php',
+  1 => '/home/alltic/public_html/itsm/data/tmp-backup-1790864174/itop-dump.sql',
+)'
+2020-09-03 23:30:07 | Info | backup: removing tmp folder '/home/alltic/public_html/itsm/data/tmp-backup-1790864174'
+2020-09-04 23:30:02 | Info | Creating backup: '/home/alltic/public_html/itsm/data/backups/auto/alltic_itsm-2020-09-04_23_30.tar.gz'
+2020-09-04 23:30:02 | Info | backup: creating tmp dir '/home/alltic/public_html/itsm/data/tmp-backup-240787707'
+2020-09-04 23:30:02 | Info | backup: adding resource '/home/alltic/public_html/itsm/conf/production/config-itop.php'
+2020-09-04 23:30:02 | Info | Starting backup of localhost/alltic_itsm(suffix:'')
+2020-09-04 23:30:02 | Info | backup: generate data file with command: mysqldump --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='localhost'  --port='3306' --user=xxxxx --password=xxxxx  --result-file='/home/alltic/public_html/itsm/data/tmp-backup-240787707/itop-dump.sql' 'alltic_itsm' 
+2020-09-04 23:30:06 | Info | mysqldump said: Warning: Using a password on the command line interface can be insecure.
+2020-09-04 23:30:06 | Info | backup: adding to archive files 'array (
+  0 => '/home/alltic/public_html/itsm/data/tmp-backup-240787707/config-itop.php',
+  1 => '/home/alltic/public_html/itsm/data/tmp-backup-240787707/itop-dump.sql',
+)'
+2020-09-04 23:30:08 | Info | backup: removing tmp folder '/home/alltic/public_html/itsm/data/tmp-backup-240787707'
+2020-09-07 23:30:02 | Info | Creating backup: '/home/alltic/public_html/itsm/data/backups/auto/alltic_itsm-2020-09-07_23_30.tar.gz'
+2020-09-07 23:30:02 | Info | backup: creating tmp dir '/home/alltic/public_html/itsm/data/tmp-backup-937791323'
+2020-09-07 23:30:02 | Info | backup: adding resource '/home/alltic/public_html/itsm/conf/production/config-itop.php'
+2020-09-07 23:30:02 | Info | Starting backup of localhost/alltic_itsm(suffix:'')
+2020-09-07 23:30:02 | Info | backup: generate data file with command: mysqldump --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='localhost'  --port='3306' --user=xxxxx --password=xxxxx  --result-file='/home/alltic/public_html/itsm/data/tmp-backup-937791323/itop-dump.sql' 'alltic_itsm' 
+2020-09-07 23:30:06 | Info | mysqldump said: Warning: Using a password on the command line interface can be insecure.
+2020-09-07 23:30:07 | Info | backup: adding to archive files 'array (
+  0 => '/home/alltic/public_html/itsm/data/tmp-backup-937791323/config-itop.php',
+  1 => '/home/alltic/public_html/itsm/data/tmp-backup-937791323/itop-dump.sql',
+)'
+2020-09-07 23:30:09 | Info | backup: removing tmp folder '/home/alltic/public_html/itsm/data/tmp-backup-937791323'
+2020-09-08 23:30:02 | Info | Creating backup: '/home/alltic/public_html/itsm/data/backups/auto/alltic_itsm-2020-09-08_23_30.tar.gz'
+2020-09-08 23:30:02 | Info | backup: creating tmp dir '/home/alltic/public_html/itsm/data/tmp-backup-1928957887'
+2020-09-08 23:30:02 | Info | backup: adding resource '/home/alltic/public_html/itsm/conf/production/config-itop.php'
+2020-09-08 23:30:02 | Info | Starting backup of localhost/alltic_itsm(suffix:'')
+2020-09-08 23:30:02 | Info | backup: generate data file with command: mysqldump --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='localhost'  --port='3306' --user=xxxxx --password=xxxxx  --result-file='/home/alltic/public_html/itsm/data/tmp-backup-1928957887/itop-dump.sql' 'alltic_itsm' 
+2020-09-08 23:30:05 | Info | mysqldump said: Warning: Using a password on the command line interface can be insecure.
+2020-09-08 23:30:05 | Info | backup: adding to archive files 'array (
+  0 => '/home/alltic/public_html/itsm/data/tmp-backup-1928957887/config-itop.php',
+  1 => '/home/alltic/public_html/itsm/data/tmp-backup-1928957887/itop-dump.sql',
+)'
+2020-09-08 23:30:08 | Info | backup: removing tmp folder '/home/alltic/public_html/itsm/data/tmp-backup-1928957887'
+2020-09-09 12:03:26 | Error | Error: estimulo invalido "ev_assign" en objeto R-000842 en estado "Asignado".
+2020-09-09 12:04:13 | Error | Error: estimulo invalido "ev_assign" en objeto R-000842 en estado "Asignado".
+2020-09-09 23:30:01 | Info | Creating backup: '/home/alltic/public_html/itsm/data/backups/auto/alltic_itsm-2020-09-09_23_30.tar.gz'
+2020-09-09 23:30:01 | Info | backup: creating tmp dir '/home/alltic/public_html/itsm/data/tmp-backup-1669646834'
+2020-09-09 23:30:01 | Info | backup: adding resource '/home/alltic/public_html/itsm/conf/production/config-itop.php'
+2020-09-09 23:30:01 | Info | Starting backup of localhost/alltic_itsm(suffix:'')
+2020-09-09 23:30:01 | Info | backup: generate data file with command: mysqldump --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='localhost'  --port='3306' --user=xxxxx --password=xxxxx  --result-file='/home/alltic/public_html/itsm/data/tmp-backup-1669646834/itop-dump.sql' 'alltic_itsm' 
+2020-09-09 23:30:04 | Info | mysqldump said: Warning: Using a password on the command line interface can be insecure.
+2020-09-09 23:30:04 | Info | backup: adding to archive files 'array (
+  0 => '/home/alltic/public_html/itsm/data/tmp-backup-1669646834/config-itop.php',
+  1 => '/home/alltic/public_html/itsm/data/tmp-backup-1669646834/itop-dump.sql',
+)'
+2020-09-09 23:30:06 | Info | backup: removing tmp folder '/home/alltic/public_html/itsm/data/tmp-backup-1669646834'
+2020-09-10 23:30:02 | Info | Creating backup: '/home/alltic/public_html/itsm/data/backups/auto/alltic_itsm-2020-09-10_23_30.tar.gz'
+2020-09-10 23:30:02 | Info | backup: creating tmp dir '/home/alltic/public_html/itsm/data/tmp-backup-1767088398'
+2020-09-10 23:30:02 | Info | backup: adding resource '/home/alltic/public_html/itsm/conf/production/config-itop.php'
+2020-09-10 23:30:02 | Info | Starting backup of localhost/alltic_itsm(suffix:'')
+2020-09-10 23:30:02 | Info | backup: generate data file with command: mysqldump --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='localhost'  --port='3306' --user=xxxxx --password=xxxxx  --result-file='/home/alltic/public_html/itsm/data/tmp-backup-1767088398/itop-dump.sql' 'alltic_itsm' 
+2020-09-10 23:30:07 | Info | mysqldump said: Warning: Using a password on the command line interface can be insecure.
+2020-09-10 23:30:07 | Info | backup: adding to archive files 'array (
+  0 => '/home/alltic/public_html/itsm/data/tmp-backup-1767088398/config-itop.php',
+  1 => '/home/alltic/public_html/itsm/data/tmp-backup-1767088398/itop-dump.sql',
+)'
+2020-09-10 23:30:09 | Info | backup: removing tmp folder '/home/alltic/public_html/itsm/data/tmp-backup-1767088398'
+2020-09-11 23:30:02 | Info | Creating backup: '/home/alltic/public_html/itsm/data/backups/auto/alltic_itsm-2020-09-11_23_30.tar.gz'
+2020-09-11 23:30:02 | Info | backup: creating tmp dir '/home/alltic/public_html/itsm/data/tmp-backup-1515891946'
+2020-09-11 23:30:02 | Info | backup: adding resource '/home/alltic/public_html/itsm/conf/production/config-itop.php'
+2020-09-11 23:30:02 | Info | Starting backup of localhost/alltic_itsm(suffix:'')
+2020-09-11 23:30:02 | Info | backup: generate data file with command: mysqldump --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='localhost'  --port='3306' --user=xxxxx --password=xxxxx  --result-file='/home/alltic/public_html/itsm/data/tmp-backup-1515891946/itop-dump.sql' 'alltic_itsm' 
+2020-09-11 23:30:04 | Info | mysqldump said: Warning: Using a password on the command line interface can be insecure.
+2020-09-11 23:30:04 | Info | backup: adding to archive files 'array (
+  0 => '/home/alltic/public_html/itsm/data/tmp-backup-1515891946/config-itop.php',
+  1 => '/home/alltic/public_html/itsm/data/tmp-backup-1515891946/itop-dump.sql',
+)'
+2020-09-11 23:30:06 | Info | backup: removing tmp folder '/home/alltic/public_html/itsm/data/tmp-backup-1515891946'
+2020-09-14 23:30:02 | Info | Creating backup: '/home/alltic/public_html/itsm/data/backups/auto/alltic_itsm-2020-09-14_23_30.tar.gz'
+2020-09-14 23:30:02 | Info | backup: creating tmp dir '/home/alltic/public_html/itsm/data/tmp-backup-1667139429'
+2020-09-14 23:30:02 | Info | backup: adding resource '/home/alltic/public_html/itsm/conf/production/config-itop.php'
+2020-09-14 23:30:02 | Info | Starting backup of localhost/alltic_itsm(suffix:'')
+2020-09-14 23:30:02 | Info | backup: generate data file with command: mysqldump --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='localhost'  --port='3306' --user=xxxxx --password=xxxxx  --result-file='/home/alltic/public_html/itsm/data/tmp-backup-1667139429/itop-dump.sql' 'alltic_itsm' 
+2020-09-14 23:30:07 | Info | mysqldump said: Warning: Using a password on the command line interface can be insecure.
+2020-09-14 23:30:07 | Info | backup: adding to archive files 'array (
+  0 => '/home/alltic/public_html/itsm/data/tmp-backup-1667139429/config-itop.php',
+  1 => '/home/alltic/public_html/itsm/data/tmp-backup-1667139429/itop-dump.sql',
+)'
+2020-09-14 23:30:09 | Info | backup: removing tmp folder '/home/alltic/public_html/itsm/data/tmp-backup-1667139429'

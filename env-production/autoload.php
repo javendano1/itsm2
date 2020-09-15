@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2020-09-02T06:09:46+0000
+// File generated on 2020-09-02T06:30:07+0000
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
