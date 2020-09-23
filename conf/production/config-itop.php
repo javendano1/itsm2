@@ -29,7 +29,7 @@ $MySettings = array(
 
 	// app_root_url: Root URL used for navigating within the application, or from an email to the application (you can put $SERVER_NAME$ as a placeholder for the server's name)
 	//	default: ''
-	'app_root_url' => 'https://alltic.co/itsm/',
+	'app_root_url' => 'xxxxxx',
 
 	// buttons_position: Position of the forms buttons: bottom | top | both
 	//	default: 'both'
@@ -80,15 +80,15 @@ $MySettings = array(
 	//	default: 'DEPRECATED_2.5'
 	'db_collation' => 'utf8_unicode_ci',
 
-	'db_host' => 'localhost',
+	'db_host' => 'xxxxxx',
 
-	'db_name' => 'alltic_itsm',
+	'db_name' => 'xxxxxxx',
 
-	'db_pwd' => 'Alltic2017',
+	'db_pwd' => 'xxxxxxxxxx',
 
 	'db_subname' => '',
 
-	'db_user' => 'aws_1',
+	'db_user' => 'xxxxxxx',
 
 	// deadline_format: The format used for displaying "deadline" attributes: any string with the following placeholders: $date$, $difference$
 	//	default: '$difference$'
